@@ -1,5 +1,5 @@
 import os
 
 class Config:
-  token = os.getenv("TOKEN")
-  prefix = "a!"
+  token = ""
+  prefix = "a!" # May use the prefix in the future
