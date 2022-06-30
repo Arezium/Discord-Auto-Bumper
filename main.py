@@ -54,7 +54,7 @@ async def on_connect():
     exit()
 
   except Exception as e:
-    print(f"{Fore.RED}[-]{Fore.RESET} An unknown error has happenned while trying to get the bump command object. Please try running the bot again.\nError: {e}")
+    print(f"{Fore.RED}[-]{Fore.RESET} An unknown error has happened while trying to get the bump command object. Please try running the bot again.\nError: {e}")
     exit()
     
   
