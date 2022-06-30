@@ -65,6 +65,6 @@ async def on_connect():
       await asyncio.sleep(7200)
 
     except Exception as e:
-      print(f"{Fore.RED}[-]{Fore.RESET} An unknown error has happenned while trying to send the bump command.\nError: {e}")
+      print(f"{Fore.RED}[-]{Fore.RESET} An unknown error has happened while trying to send the bump command.\nError: {e}")
 
 bot.run(token)
